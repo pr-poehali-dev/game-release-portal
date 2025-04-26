@@ -92,8 +92,8 @@ const Index = () => {
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
             <div>
-              <h2 className="text-2xl font-bold mb-1">Библиотека игр</h2>
-              <p className="text-muted-foreground">Найдите и скачайте редкие, старые и демо-версии игр</p>
+              <h2 className="text-2xl font-bold mb-1">Загруженные пользователями игры</h2>
+              <p className="text-muted-foreground">Редкие, старые и демо-версии игр от нашего сообщества</p>
             </div>
             
             <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full md:w-auto">
